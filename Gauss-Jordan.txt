@@ -44,9 +44,10 @@ int main() {
             for (int j=0; j<=n; j++) a[k][j]-= factor * a[i][j];
         }
     }
-    cout << "Nghiem cua he la:\n";
+    cout << "He co nghiem duy nhat:\n";
     for (int i = 0; i < n; i++)
         cout << "x" << i+1 <<" = "<<a[i][n]<< "\n";
     return 0;
 }
+
 
